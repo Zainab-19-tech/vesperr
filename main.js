@@ -2,13 +2,12 @@
 
 const nav = document.querySelector(".nav");
 const navBtn = document.querySelector(".navToggle");
-const navLists = document.querySelector(".navLink");
-
-console.log(navBtn);
+const navLists = document.querySelectorAll(".navLink");
 
 navBtn.addEventListener("click", function () {
   nav.classList.toggle("sticky");
 });
+
 // nav stick remover
 const navLink = document.querySelectorAll(".navLink");
 navLink.forEach((btn) => {
@@ -16,6 +15,7 @@ navLink.forEach((btn) => {
     nav.classList.remove("sticky");
   });
 });
+
 // nav-intersection
 const navChange = document.querySelector(".hero");
 
