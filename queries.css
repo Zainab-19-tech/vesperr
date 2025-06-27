@@ -1,0 +1,124 @@
+@media (max-width: 1300px) {
+  .contactBoxes {
+    grid-template-columns: 1fr;
+  }
+  .contactForm {
+    width: 100%;
+  }
+  .contactInput {
+    width: 100%;
+    align-items: center;
+  }
+}
+@media (max-width: 1200px) {
+  .teamBoxes {
+    grid-template-columns: 1fr 1fr;
+  }
+  .serboxes2 {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 1120px) {
+  .navList {
+    display: none;
+  }
+  .navToggle {
+    display: flex;
+  }
+  .close {
+    display: none;
+  }
+  .sticky .Dback {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.541);
+    width: 100%;
+    padding: 7rem 2rem;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: 99;
+  }
+  .sticky .navList {
+    padding: 2rem;
+    background-color: white;
+    width: 80%;
+    border-radius: 2rem;
+    /* text-align: center;  */
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+    position: fixed;
+    top: 10rem;
+    z-index: 99;
+  }
+  .sticky .navLink {
+    font-size: 22px;
+    font-weight: 600;
+  }
+  .sticky .close {
+    display: flex;
+    color: white;
+    z-index: 99;
+  }
+  .sticky .open {
+    display: none;
+  }
+}
+@media (max-width: 920px) {
+  .about2-section {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 900px) {
+  .padd-10 {
+    padding: 2rem;
+  }
+}
+@media (max-width: 800px) {
+  .serviceBoxes,
+  .tcActive,
+  .featureBoxes {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 740px) {
+  .pricing-boxes,
+  .abouTexts {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+  .heading::before,
+  .heading::after {
+    width: 0%;
+    height: 0%;
+  }
+}
+@media (max-width: 670px) {
+  .hero-img {
+    width: 100%;
+  }
+  
+  .header {
+    flex-direction: column-reverse;
+  }
+  .heroClients {
+    grid-template-columns: repeat(3, 1fr);
+    padding: 2rem;
+  }
+}
+@media (max-width: 600px) {
+  .teamBoxes,
+  .serviceBoxes,
+  .questionBox,
+  .tcActive {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 450px) {
+  .featureBoxes,
+  .about2-texts {
+    grid-template-columns: 1fr;
+  }
+}
